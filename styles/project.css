@@ -1,0 +1,167 @@
+*{
+    --textColor1: #fff;
+    --textColor2: #6E3CBC;
+    --circleColor1: #98BAE7;
+    --circleColor2: #7267CB;
+    --bgColor1: #bfe6f1;
+    --bgColor2: #a4bfe2;
+    --divColor1: #7267CB;
+    --divColor2: #5927aa;
+
+
+    --textFont: 'Roboto', sans-serif;
+    --titleFont1:  'Montserrat', sans-serif;
+    --titleFont2: 'Archivo Black', sans-serif;
+    --oswald: 'Oswald', sans-serif;
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--divColor2);
+    font-family: var(--textFont) ;
+    
+}
+
+h3{
+    line-height: 0;
+    font-weight: 500;
+}
+
+p{
+    line-height: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+
+/* MAIN STYLING */
+.main{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+/* ICONS STYLING */
+
+.circle{
+    background-color: gray;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.icon-explain{
+    color:rgb(184, 184, 184);
+    font-size: 11px;
+}
+
+.previous-box{
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.2rem;
+}
+
+
+/*RIGHT PANE ICONS*/
+.close-box{
+    position: fixed;
+    top: 1rem;
+    right: 1.5rem;
+    z-index: 59;
+    color: white;
+}
+
+.fa-times{
+    color: white;
+    transition: 0.3s;
+}
+
+.fa-times:hover{
+    color:rgb(184, 184, 184);
+}
+
+.right-pane{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.mail{
+    background-color: rgb(231, 231, 231);
+    transition: 0.3s;
+}
+
+.mail:hover{
+    background-color:rgb(187, 187, 187);
+}
+
+.fa-envelope{
+    color: black;
+}
+
+.next-box{
+    margin-top: 2rem;
+}
+
+.direction-circle{
+    transition: 0.3s;
+}
+
+.direction-circle:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+
+/* HEADER STYLING */
+header{
+    width: 88%;
+    margin: 0 auto;
+}
+
+.header-sec{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    background-color: black;
+    color: var(--textColor1);
+}
+
+.sec{
+    text-align: center;
+}
+
+.title-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.company-div{
+    width: 3rem;
+}
